@@ -1,0 +1,10 @@
+﻿@model CL.Domain.Models.Movies.Movie
+
+<h2>@Model.MovieName</h2>
+
+<ul>
+    <li>Genre: @Model.Genre.Name</li>
+    <li>Released Date: @Model.ReleasedDate.Value.ToString("dddd, dd MMMM yyyy")</li>
+    <li>Date Added: @Model.DateAdded.ToString("dddd, dd MMMM yyyy")</li>
+    <li>Number in Stocks: @Model.Stocks</li>
+</ul>

@@ -1,0 +1,40 @@
+﻿@model IEnumerable<CL.Domain.Models.Movies.Movie>
+
+@if (!Model.Equals(null))
+{
+    <h2>Movies</h2>
+
+    <a class="btn btn-primary mb-3" href="/Movies/New" target="_blank">New Movie</a>
+    if (Model.ToList().Count > 0)
+    {
+        <table id="movies" class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Movie</th>
+                    <th scope="col">Genre</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @*@foreach (var movies in Model)
+                    {
+                        <tr>
+                            <th scope="row">@movies.Id</th>
+                            <td> @Html.ActionLink((string)movies.MovieName, "Details", "Movies", new { id = movies.Id }, null)</td>
+
+                            <td>@(movies.Genre != null? movies.Genre.Name: string.Empty)</td>
+                            <td>@Html.ActionLink("Edit", "EditMovie", "Movies", new { id = movies.Id }, null)</td>
+                        </tr>
+
+
+                    }*@
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <h3>There are no movies yet!</h3>
+    }
+}
+

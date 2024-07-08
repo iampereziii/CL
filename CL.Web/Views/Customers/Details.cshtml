@@ -1,0 +1,10 @@
+﻿@model  CL.Domain.Models.Customers.Customer
+
+<h2>@Model.Name</h2>
+<ul>
+    <li>Membership Type: @Model.MembershipTypeModel.Name</li>
+    @if (Model.CustomerDetailsModel.Birthday != null) { 
+        <li>Birthdate: @Model.CustomerDetailsModel.Birthday</li>
+        }
+
+</ul>

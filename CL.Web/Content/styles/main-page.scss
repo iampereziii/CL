@@ -1,0 +1,18 @@
+﻿body {
+    padding: 0rem;
+    background-color: lightgray;
+
+    .field-validation-error {
+        color: red;
+        display: block;
+    }
+
+    label.error {
+        color: red;
+        display: block;
+    }
+
+    input.error {
+        border-color: red;
+    }
+}

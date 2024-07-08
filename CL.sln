@@ -1,0 +1,107 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CL.Web", "CL.Web\CL.Web.csproj", "{12DBE502-EC75-4F84-A76A-621153EB0B82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsoleApplications", "ConsoleApplications", "{2F71D211-0684-4CB4-83E4-E741979B7FE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CL.Tests", "CL.Tests\CL.Tests.csproj", "{573E9906-4B25-4E78-90D1-7559099BEE69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CL.Domain", "CL.Domain\CL.Domain.csproj", "{505C9F7B-4D86-4FEA-AF98-F66FD2A94A66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CL.Service", "CL.Service\CL.Service.csproj", "{204B7C64-C05D-4527-B891-E217E0159FA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CL.Data", "CL.Data\CL.Data.csproj", "{7A7501FC-7EC8-44FC-92A3-22AE1D2AF421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkDemoOnly", "EntityFrameworkDemoOnly\EntityFrameworkDemoOnly.csproj", "{DC9CFDD9-E109-40A8-AE9A-9E27EC2ECC9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VidzyCodeFirst", "VidzyCodeFirst\VidzyCodeFirst.csproj", "{4A850149-E982-45E8-AA98-45069FC786EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Test|Any CPU = Test|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12DBE502-EC75-4F84-A76A-621153EB0B82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12DBE502-EC75-4F84-A76A-621153EB0B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12DBE502-EC75-4F84-A76A-621153EB0B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12DBE502-EC75-4F84-A76A-621153EB0B82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12DBE502-EC75-4F84-A76A-621153EB0B82}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{12DBE502-EC75-4F84-A76A-621153EB0B82}.Test|Any CPU.Build.0 = Test|Any CPU
+		{573E9906-4B25-4E78-90D1-7559099BEE69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{573E9906-4B25-4E78-90D1-7559099BEE69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{573E9906-4B25-4E78-90D1-7559099BEE69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{573E9906-4B25-4E78-90D1-7559099BEE69}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{573E9906-4B25-4E78-90D1-7559099BEE69}.Test|Any CPU.Build.0 = Test|Any CPU
+		{505C9F7B-4D86-4FEA-AF98-F66FD2A94A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{505C9F7B-4D86-4FEA-AF98-F66FD2A94A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{505C9F7B-4D86-4FEA-AF98-F66FD2A94A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{505C9F7B-4D86-4FEA-AF98-F66FD2A94A66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{505C9F7B-4D86-4FEA-AF98-F66FD2A94A66}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{505C9F7B-4D86-4FEA-AF98-F66FD2A94A66}.Test|Any CPU.Build.0 = Test|Any CPU
+		{204B7C64-C05D-4527-B891-E217E0159FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204B7C64-C05D-4527-B891-E217E0159FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204B7C64-C05D-4527-B891-E217E0159FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204B7C64-C05D-4527-B891-E217E0159FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{204B7C64-C05D-4527-B891-E217E0159FA5}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{204B7C64-C05D-4527-B891-E217E0159FA5}.Test|Any CPU.Build.0 = Test|Any CPU
+		{7A7501FC-7EC8-44FC-92A3-22AE1D2AF421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7501FC-7EC8-44FC-92A3-22AE1D2AF421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7501FC-7EC8-44FC-92A3-22AE1D2AF421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7501FC-7EC8-44FC-92A3-22AE1D2AF421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A7501FC-7EC8-44FC-92A3-22AE1D2AF421}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{7A7501FC-7EC8-44FC-92A3-22AE1D2AF421}.Test|Any CPU.Build.0 = Test|Any CPU
+		{DC9CFDD9-E109-40A8-AE9A-9E27EC2ECC9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC9CFDD9-E109-40A8-AE9A-9E27EC2ECC9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC9CFDD9-E109-40A8-AE9A-9E27EC2ECC9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC9CFDD9-E109-40A8-AE9A-9E27EC2ECC9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC9CFDD9-E109-40A8-AE9A-9E27EC2ECC9E}.Test|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC9CFDD9-E109-40A8-AE9A-9E27EC2ECC9E}.Test|Any CPU.Build.0 = Debug|Any CPU
+		{4A850149-E982-45E8-AA98-45069FC786EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A850149-E982-45E8-AA98-45069FC786EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A850149-E982-45E8-AA98-45069FC786EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A850149-E982-45E8-AA98-45069FC786EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A850149-E982-45E8-AA98-45069FC786EF}.Test|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A850149-E982-45E8-AA98-45069FC786EF}.Test|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC9CFDD9-E109-40A8-AE9A-9E27EC2ECC9E} = {2F71D211-0684-4CB4-83E4-E741979B7FE6}
+		{4A850149-E982-45E8-AA98-45069FC786EF} = {2F71D211-0684-4CB4-83E4-E741979B7FE6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A54F17A-AFA2-4FE6-8688-ACAC1CC400E5}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/iampereziii
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CL.Web\\CL.Web.csproj
+		SccProjectName1 = CL.Web
+		SccLocalPath1 = CL.Web
+		SccProjectUniqueName2 = CL.Domain\\CL.Domain.csproj
+		SccProjectName2 = CL.Domain
+		SccLocalPath2 = CL.Domain
+		SccProjectUniqueName3 = CL.Service\\CL.Service.csproj
+		SccProjectName3 = CL.Service
+		SccLocalPath3 = CL.Service
+		SccProjectUniqueName4 = CL.Data\\CL.Data.csproj
+		SccProjectName4 = CL.Data
+		SccLocalPath4 = CL.Data
+		SccProjectUniqueName5 = EntityFrameworkDemoOnly\\EntityFrameworkDemoOnly.csproj
+		SccProjectTopLevelParentUniqueName5 = CL.sln
+		SccProjectName5 = EntityFrameworkDemoOnly
+		SccLocalPath5 = EntityFrameworkDemoOnly
+		SccProjectUniqueName6 = VidzyCodeFirst\\VidzyCodeFirst.csproj
+		SccProjectTopLevelParentUniqueName6 = CL.sln
+		SccProjectName6 = VidzyCodeFirst
+		SccLocalPath6 = VidzyCodeFirst
+	EndGlobalSection
+EndGlobal

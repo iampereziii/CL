@@ -1,0 +1,15 @@
+﻿body {
+  padding: 0rem;
+  background-color: lightgray;
+}
+body .field-validation-error {
+  color: red;
+  display: block;
+}
+body label.error {
+  color: red;
+  display: block;
+}
+body input.error {
+  border-color: red;
+}
